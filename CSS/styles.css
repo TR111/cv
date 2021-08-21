@@ -1,0 +1,148 @@
+body{
+  margin: 0;
+  color: #40514E;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  color: #66BFBF;
+}
+
+h2{
+  font-weight: normal;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-top: 10px;
+  /*rem sets the font size to 16px*2.5, only for the h2 part, neglecting any parent settings or similar*/
+  /*rem is also dynamic and changes if size settings are changed, px is static and always is the same*/
+}
+
+h3{
+  font-family: 'Amatic SC', cursive;
+  color: #11999E;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/*The margin=0 is important to have no border around the site elements*/
+
+hr{
+  border: 0.5rem dotted #DDDDDD;
+  border-bottom: none;
+  width: 5%;
+  margin: 6rem auto;
+}
+
+p{
+  font-size: 1rem;
+  line-height: 2;
+}
+
+a{
+  line-height: 2;
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  margin: 20px 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  position: relative;
+  padding: 2rem 0 1rem;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #11999E;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #66BFBF;
+  text-decoration: none;
+}
+
+.contact-me{
+  width: 50%;
+  text-align: center;
+  margin: 3rem auto 3rem;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.gif-blockchain{
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.gif-ethereum{
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.middle-container{
+  margin: 8rem 0;
+}
+
+.intro{
+  width: 50%;
+  margin: auto;
+}
+
+.profile-img{
+  border-radius: 100%;
+  height: 200px;
+  width: auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 3rem auto;
+  text-align: left;
+}
+
+.top-cloud{
+  position:absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.underlined{
+  text-decoration: underline;
+}
